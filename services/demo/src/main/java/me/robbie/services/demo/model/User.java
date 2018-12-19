@@ -1,4 +1,4 @@
-package me.robbie.services.demo;
+package me.robbie.services.demo.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

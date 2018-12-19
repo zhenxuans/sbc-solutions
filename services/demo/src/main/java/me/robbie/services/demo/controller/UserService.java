@@ -1,6 +1,7 @@
-package me.robbie.services.demo;
+package me.robbie.services.demo.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import me.robbie.services.demo.model.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

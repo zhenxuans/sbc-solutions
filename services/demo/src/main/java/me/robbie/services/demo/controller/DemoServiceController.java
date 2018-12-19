@@ -1,6 +1,10 @@
-package me.robbie.services.demo;
+package me.robbie.services.demo.controller;
 
 
+import me.robbie.services.demo.api.DemoService;
+import me.robbie.services.demo.model.BaseResponse;
+import me.robbie.services.demo.model.DemoRequestData;
+import me.robbie.services.demo.model.DemoResponseData;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value="/demo")
+
 public interface DemoService {
     @RequestMapping(value= "/getDemo", method = RequestMethod.GET)
     BaseResponse<DemoResponseData> getDemoData(@RequestBody DemoRequestData req);
